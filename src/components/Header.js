@@ -8,15 +8,17 @@ function Header() {
   return (
     <div>
       <div className="contHeader">
-        <img src={imgLogo} className="imgLogo" />
-        <div className="contHeaderText">
-          <h3 className="headerText">launches</h3>
-          <h3 className="headerText">sneakers</h3>
-          <h3 className="headerText">apparel</h3>
-          <h3 className="headerText">kids</h3>
-          <h3 className="headerText">acessories</h3>
-          <h3 className="headerText">culture</h3>
-          <h3 className="headerText">brands</h3>
+        <div className="space">
+          <img src={imgLogo} className="imgLogo" />
+          <div className="contHeaderText">
+            <h3 className="headerText">launches</h3>
+            <h3 className="headerText">sneakers</h3>
+            <h3 className="headerText">apparel</h3>
+            <h3 className="headerText">kids</h3>
+            <h3 className="headerText">acessories</h3>
+            <h3 className="headerText">culture</h3>
+            <h3 className="headerText">brands</h3>
+          </div>
         </div>
         <div className="contHeaderImg">
           <img src={imgLupa} className="imgHeader" />

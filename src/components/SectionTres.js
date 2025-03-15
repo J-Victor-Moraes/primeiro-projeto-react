@@ -7,25 +7,25 @@ function SectionTres() {
   return (
     <div className="contMain">
       <div className="contUm">
-        <img src={imgUm} />
+        <img src={imgUm} className="img" />
         <div className="contDois">
           <h1 className="name">got matcha? crewneck </h1>
           <h2 className="num">R 799.00</h2>
         </div>
       </div>
       <div className="contUm">
-        <img src={imgDois} />
+        <img src={imgDois} className="img" />
         <h2 className="name">l XL</h2>
       </div>
       <div className="contUm">
-        <img src={imgTres} />
+        <img src={imgTres} className="img" />
         <div className="contDois">
           <h1 className="name">tokyo athlete club</h1>
           <h2 className="num">R 1,200.00</h2>
         </div>
       </div>
       <div className="contUm">
-        <img src={imgQuatro} />
+        <img src={imgQuatro} className="img" />
         <div className="contDois">
           <h1 className="name">tokyo athlete club </h1>
           <h2 className="num">R 2,099.00</h2>

@@ -7,25 +7,25 @@ function SectionDois() {
   return (
     <div className="contMain">
       <div className="contUm">
-        <img src={imgUm} />
+        <img src={imgUm} className="img" />
         <div className="contDois">
           <h1 className="name">air force 1 lv8 3 (Gs)</h1>
           <h2 className="num">R 2,099.00</h2>
         </div>
       </div>
       <div className="contUm">
-        <img src={imgDois} />
+        <img src={imgDois} className="img" />
         <h2 className="name">3 4 5 6</h2>
       </div>
       <div className="contUm">
-        <img src={imgTres} />
+        <img src={imgTres} className="img" />
         <div className="contDois">
           <h1 className="name">air force 1 lv8 3 (Gs)</h1>
           <h2 className="num">R 2,099.00</h2>
         </div>
       </div>
       <div className="contUm">
-        <img src={imgQuatro} />
+        <img src={imgQuatro} className="img" />
         <div className="contDois">
           <h1 className="name">air force 1 lv8 3 (Gs)</h1>
           <h2 className="num">R 2,099.00</h2>

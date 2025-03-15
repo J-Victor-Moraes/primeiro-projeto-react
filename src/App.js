@@ -1,5 +1,3 @@
-// import Button from "./components/Button";
-// import imagem from "./assets/semantica-HTML-artigo.png";
 import "./index.css";
 import Header from "./components/Header";
 import SectionUm from "./components/SectionUm.js";
@@ -9,13 +7,15 @@ import SectionTres from "./components/SectionTres.js";
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <img src={MainImg} className="MainImg" />
-      <SectionUm></SectionUm>
-      <h1 className="just">just dropped</h1>
-      <SectionDois></SectionDois>
-      <h1 className="just">ceremony</h1>
-      <SectionTres></SectionTres>
+      <div className="container">
+        <Header />
+        <img src={MainImg} className="MainImg" alt="img" />
+        <SectionUm />
+        <h1 className="just">just dropped</h1>
+        <SectionDois />
+        <h1 className="just">ceremony</h1>
+        <SectionTres />
+      </div>
     </div>
   );
 }
