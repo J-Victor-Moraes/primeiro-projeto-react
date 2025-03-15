@@ -1,0 +1,12 @@
+.contSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px 30px 60px;
+}
+.secUmImg {
+  width: 580px;
+  height: 634px;
+  border: 1px solid black;
+}
